@@ -3,7 +3,13 @@ name: Update readme
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '37 3 * * 1'   # Monday ~14:37 AEDT
+    - cron: '12 21 * * 2'  # Wednesday ~08:12 AEDT
+    - cron: '51 8 * * 3'   # Wednesday ~19:51 AEDT
+    - cron: '23 0 * * 4'   # Thursday ~11:23 AEDT
+    - cron: '45 5 * * 5'   # Friday ~16:45 AEDT
+    - cron: '8 19 * * 6'   # Sunday ~06:08 AEDT
+    - cron: '33 11 * * 0'  # Sunday ~22:33 AEDT
 
 permissions:
   contents: write
