@@ -1,0 +1,16 @@
+# gifos_settings.toml
+
+[general]
+debug = false
+cursor = "_"
+show_cursor = true
+blink_cursor = true
+user_name = "Fynn9563" # for prompt
+fps = 15
+color_scheme = "catppuccin-mocha"
+loop_count = 0 # infinite loop
+
+[files]
+frame_base_name = "frame_"
+frame_folder_name = "frames"
+output_gif_name = "output"
